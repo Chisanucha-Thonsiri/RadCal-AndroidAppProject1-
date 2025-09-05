@@ -125,7 +125,11 @@
                 android:id="@+id/circle_area_cal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/top_rounded_container"
+                android:backgroundTint="@color/material_dynamic_neutral_variant40">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -138,21 +142,26 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center">
-                    <Button
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonCalculate"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/calculate"
-                        android:background="@drawable/rounded_container"
-                        android:backgroundTint="@color/accent_1"/>
+                        android:textColor="#FFFFFF"
+                        app:cornerRadius="8dp"
+                        app:backgroundTint="@color/accent_1"/>
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonClear"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/clear"
-                        android:background="@drawable/rounded_container"
-                        android:backgroundTint="@color/primary"/>
+                        android:textColor="#FFFFFF"
+                        app:cornerRadius="8dp"
+                        app:backgroundTint="@color/secondary"/>
+
                 </LinearLayout>
                 <TextView
                     android:layout_width="match_parent"
@@ -179,6 +188,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/itim_regular"
                 android:text="(Menubar)"
+                android:minHeight="48dp"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
