@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">RadCal</string>
     <string name="cal_menu">ฟังก์ชั่นการคำนวน</string>
-</resources>
+    <string name="cal_menu1">คำนวนพื้นที่วงกลม</string>
+    <string name="comimg_soon">อัพเดตเร็ว ๆ นี้</string>
+    </resources>

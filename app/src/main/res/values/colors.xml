@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#DCF2F1</color>
+    <color name="secondary">#7FC7D9</color>
+    <color name="accent_1">#365486</color>
 </resources>
