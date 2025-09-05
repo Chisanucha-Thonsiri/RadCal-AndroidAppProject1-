@@ -3,4 +3,8 @@
     <string name="cal_menu">ฟังก์ชั่นการคำนวน</string>
     <string name="cal_menu1">คำนวนพื้นที่วงกลม</string>
     <string name="comimg_soon">อัพเดตเร็ว ๆ นี้</string>
-    </resources>
+    <string name="enter_r">ใส่รัศมีของวงกลม</string>
+    <string name="calculate">คำนวณค่าพื้นที่ของวงกลม</string>
+    <string name="clear">ล้างค่า</string>
+    <string name="result">ผลลัพธ์</string>
+</resources>
