@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,8 +21,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/accent_1"
+            android:background="@drawable/bottom_rounded_container"
+            android:backgroundTint="@color/accent_1"
+            android:padding="4dp"
+            android:clipToOutline="true"
             android:orientation="horizontal">
 
             <ImageView
@@ -37,7 +40,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/itim_regular"
                 android:paddingTop="5dp"
@@ -72,7 +75,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:background="@color/secondary"
+                    android:background="@drawable/rounded_container"
+                    android:backgroundTint="@color/secondary"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -96,7 +100,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:background="@color/secondary"
+                    android:background="@drawable/rounded_container"
+                    android:backgroundTint="@color/secondary"
                     android:orientation="vertical"
                     android:padding="5dp">
 
