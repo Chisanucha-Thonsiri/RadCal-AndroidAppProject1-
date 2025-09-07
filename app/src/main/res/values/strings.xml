@@ -7,4 +7,5 @@
     <string name="calculate">คำนวณพื้นที่วงกลม</string>
     <string name="clear">ล้างค่า</string>
     <string name="result">ผลลัพธ์</string>
+    <string name="circle_area">พื้นที่วงกลม</string>
 </resources>

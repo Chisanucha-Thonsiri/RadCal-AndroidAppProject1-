@@ -131,6 +131,7 @@
                 android:background="@drawable/top_rounded_container"
                 android:backgroundTint="@color/material_dynamic_neutral_variant40">
                 <EditText
+                    android:id="@+id/enterR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="48dp"
@@ -143,27 +144,28 @@
                     android:orientation="horizontal"
                     android:gravity="center">
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/buttonCalculate"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/calculate"
-                        android:textColor="#FFFFFF"
-                        app:cornerRadius="8dp"
-                        app:backgroundTint="@color/accent_1"/>
-
-                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/buttonClear"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/clear"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
+                        app:cornerRadius="8dp"
+                        app:backgroundTint="@color/accent_1"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonCalculate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/calculate"
+                        android:textColor="@color/black"
                         app:cornerRadius="8dp"
                         app:backgroundTint="@color/secondary"/>
 
                 </LinearLayout>
                 <TextView
+                    android:id="@+id/areaResult"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/result"
