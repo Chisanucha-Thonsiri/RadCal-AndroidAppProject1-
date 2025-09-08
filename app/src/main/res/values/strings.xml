@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">โยคีคำนวนสารพัดสิ่ง</string>
+    <string name="app_name">Just Cal It</string>
     <string name="cal_menu">ฟังก์ชั่นการคำนวน</string>
     <string name="cal_menu1">คำนวนพื้นที่วงกลม</string>
-    <string name="comimg_soon">อัพเดตเร็ว ๆ นี้</string>
+    <string name="coming_soon">อัพเดตเร็ว ๆ นี้</string>
     <string name="enter_r">ใส่รัศมีของวงกลม</string>
     <string name="calculate">คำนวณพื้นที่วงกลม</string>
     <string name="clear">ล้างค่า</string>

@@ -69,11 +69,11 @@
                     android:id="@+id/menu_star"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/menu_star_icon"
-                    android:scaleType="fitCenter"
                     android:padding="0dp"
-                    android:layout_margin="0dp"/>
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu_star_icon__1" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -129,7 +129,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher_foreground" />
+                        android:src="@mipmap/coming_soon_foreground" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -138,7 +138,7 @@
                         android:fontFamily="@font/itim_regular"
                         android:gravity="center|center_horizontal|center_vertical"
                         android:paddingTop="5dp"
-                        android:text="@string/comimg_soon"
+                        android:text="@string/coming_soon"
                         android:textColor="@color/white" />
                 </LinearLayout>
             </LinearLayout>
@@ -169,6 +169,7 @@
                         android:id="@+id/logo_64"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
                         android:background="@drawable/logo" />
 
                     <TextView
@@ -197,7 +198,7 @@
                     android:text="@string/rad_input_prompt"
                     android:textColor="@color/black"
                     android:fontFamily="@font/itim_regular"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
                     android:drawableStart="@drawable/ic_adjust"
                     android:drawablePadding="4dp"
                     />
@@ -228,7 +229,7 @@
                         android:fontFamily="@font/itim_regular"
                         android:text="@string/rad_output_prompt"
                         android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/areaResult"
@@ -237,7 +238,7 @@
                         android:fontFamily="@font/itim_regular"
                         android:text="@string/result"
                         android:textColor="@color/accent_2"
-                        android:textSize="18dp">
+                        android:textSize="18sp">
 
                     </TextView>
 
@@ -301,10 +302,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="15dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/ic_home"
-                android:drawablePadding="4dp"
+                android:drawablePadding="2dp"
                 android:fontFamily="@font/itim_regular"
                 android:text="@string/menu_bar_home"
                 android:textColor="@color/white"
@@ -315,10 +316,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/ic_money_bag"
-                android:drawablePadding="4dp"
+                android:drawablePadding="2dp"
                 android:fontFamily="@font/itim_regular"
                 android:text="@string/menu_bar_premium"
                 android:textColor="@color/grey"
