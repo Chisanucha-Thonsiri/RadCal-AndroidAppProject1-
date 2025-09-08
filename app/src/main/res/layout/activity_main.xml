@@ -201,7 +201,12 @@
                         android:text="@string/clear"
                         android:textColor="@color/black"
                         app:backgroundTint="@color/grey"
-                        app:cornerRadius="8dp" />
+                        app:cornerRadius="8dp"
+                        app:icon="@drawable/ic_delete"
+                        app:iconGravity="textEnd"
+                        app:iconPadding="8dp"
+                        app:iconTint="@color/black"
+                        />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/buttonCalculate"
@@ -212,7 +217,12 @@
                         android:text="@string/calculate"
                         android:textColor="@color/white"
                         app:backgroundTint="@color/accent_1"
-                        app:cornerRadius="8dp" />
+                        app:cornerRadius="8dp"
+                        app:icon="@drawable/ic_calculate"
+                        app:iconGravity="textEnd"
+                        app:iconPadding="8dp"
+                        app:iconTint="@color/white"
+                        />
 
                 </LinearLayout>
 
