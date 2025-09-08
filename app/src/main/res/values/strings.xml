@@ -9,4 +9,6 @@
     <string name="result">ผลลัพธ์</string>
     <string name="circle_area">พื้นที่วงกลม</string>
     <string name="circle_area_header">ฟังก์ชั่นพื้นที่วงกลม</string>
+    <string name="menu_bar_home">หน้าแรก</string>
+    <string name="menu_bar_premium">อัพเกรดเป็นพรีเมี่ยม</string>
 </resources>
